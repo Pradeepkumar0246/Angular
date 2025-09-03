@@ -1,0 +1,24 @@
+<h1>Product</h1>
+<div class="cont">
+<div class="product">
+    <img class="p-image" src="{{product1.imageurl}}">
+  <p>Name : {{product1.name}}</p>
+  <p>Price : {{product1.price}}</p>
+  <p>Availability : {{product1.instock ? 'Instock' : 'Out Of Stock'}}</p>
+  <button [disabled]="!product1.instock">Buy now</button>
+  </div>
+  <div class="product">
+    <img class="p-image" src="{{product2.imageurl}}">
+  <p>Name : {{product2.name}}</p>
+  <p>Price : {{product2.price}}</p>
+  <p>Availability : {{product2.instock ? 'Instock' : 'Out Of Stock'}}</p>
+  <button [disabled]="!product2.instock">Buy now</button>
+  </div>
+  <div class="product">
+    <img class="p-image" src="{{product3.imageurl}}">
+  <p>Name : {{product3.name}}</p>
+  <p>Price : {{product3.price}}</p>
+  <p>Availability : {{product3.instock ? 'Instock' : 'Out Of Stock'}}</p>
+  <button [disabled]="!product3.instock">Buy now</button>
+  </div>
+  </div>

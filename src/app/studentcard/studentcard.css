@@ -1,0 +1,28 @@
+.cont {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.student {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.s-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid blue;
+}
+
+.student p {
+  margin: 5px 0;
+  font-size: 14px;
+}

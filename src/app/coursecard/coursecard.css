@@ -1,0 +1,23 @@
+.cont {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course {
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  background-color: white;
+}
+
+.course p {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.course p:last-child {
+  border-bottom: none;
+}
