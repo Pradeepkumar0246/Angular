@@ -1,0 +1,64 @@
+<div class="department-container">
+
+  <!-- Top-right message -->
+  <div *ngIf="message" class="top-message" [ngClass]="messageType">
+    {{ message }}
+  </div>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <button *ngIf="!addingNew" class="add-new-btn" (click)="showAddRow()">
+      + New Department
+    </button>
+  </div>
+
+  <table class="department-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th class="actions-col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- Add New Department Row -->
+      <tr *ngIf="addingNew">
+        <td>
+          <input class="input-field" type="text" [(ngModel)]="newDepartment.name" placeholder="Department Name"/>
+        </td>
+        <td>
+          <textarea class="textarea-field" [(ngModel)]="newDepartment.description" placeholder="Description"></textarea>
+        </td>
+        <td>
+          <button class="update-btn" (click)="addDepartment()">Add</button>
+          <button class="cancel-btn" (click)="cancelAdd()">Cancel</button>
+        </td>
+      </tr>
+
+      <!-- Existing Departments -->
+      <tr *ngFor="let dept of departments" [class.hover-row]="true">
+        <!-- Display mode -->
+        <ng-container *ngIf="editingDepartmentId !== dept.departmentId">
+          <td>{{ dept.name }}</td>
+          <td>{{ dept.description }}</td>
+          <td>
+            <button class="edit-btn" (click)="startEdit(dept)">Edit</button>
+            <button class="delete-btn" (click)="confirmDelete(dept)">Delete</button>
+          </td>
+        </ng-container>
+
+        <!-- Edit mode -->
+        <ng-container *ngIf="editingDepartmentId === dept.departmentId">
+          <td><input class="input-field" type="text" [(ngModel)]="editDepartment.name"/></td>
+          <td><textarea class="textarea-field" [(ngModel)]="editDepartment.description"></textarea></td>
+          <td>
+            <button class="update-btn" (click)="updateDepartment(dept)">Update</button>
+            <button class="cancel-btn" (click)="cancelEdit()">Cancel</button>
+          </td>
+        </ng-container>
+      </tr>
+
+    </tbody>
+  </table>
+</div>

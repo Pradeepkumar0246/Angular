@@ -1,0 +1,47 @@
+<!-- Top Navbar -->
+<nav class="navbar">
+  <div class="nav-left" (click)="setSection('dashboard')">
+    <span class="app-title">Digital License Application</span>
+  </div>
+
+  <div class="nav-center">
+    <button [class.active]="selectedSection==='users'" (click)="setSection('users')">Users</button>
+    <button [class.active]="selectedSection==='forms'" (click)="setSection('forms')">Forms</button>
+    <button [class.active]="selectedSection==='applications'" (click)="setSection('applications')">Applications</button>
+    <button [class.active]="selectedSection==='departments'" (click)="setSection('departments')">Departments</button>
+  </div>
+
+  <div class="nav-right">
+  <img 
+    class="profile-pic" 
+    [src]="adminUser?.profileImageUrl" 
+    alt="Profile" 
+    (click)="goToProfile()"
+  />
+  <span class="user-name" (click)="goToProfile()">{{ adminUser?.name }}</span>
+  <button class="logout-btn" (click)="logout()">Logout</button>
+</div>
+
+</nav>
+
+<div class="content">
+  <div *ngIf="selectedSection==='dashboard'">
+    <h2>Welcome, {{ adminUser?.name }}</h2>
+  </div>
+
+  <div *ngIf="selectedSection==='users'">
+    <app-usercomponent></app-usercomponent>
+  </div>
+
+  <div *ngIf="selectedSection==='forms'">
+    <app-formcomponent></app-formcomponent>
+  </div>
+
+  <div *ngIf="selectedSection==='applications'">
+    <app-applicationcomponent></app-applicationcomponent>
+  </div>
+
+  <div *ngIf="selectedSection==='departments'">
+    <app-departmentcomponent></app-departmentcomponent>
+  </div>
+</div>

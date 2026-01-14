@@ -1,0 +1,99 @@
+.profile-container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #3a86ff;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #3a86ff;
+  outline: none;
+}
+
+.has-error input {
+  border-color: #ef233c;
+}
+
+.error {
+  color: #ef233c;
+  font-size: 0.85em;
+  margin-top: 5px;
+}
+
+.success {
+  color: #2b2d42;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3a86ff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button-group button {
+  width: 48%;
+  background-color: #3a86ff;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-group button:disabled {
+  background-color: #9bbef7;
+  cursor: not-allowed;
+}
+
+.button-group button:hover:not(:disabled) {
+  background-color: #265df2;
+}
+
+.messages {
+  text-align: center;
+  margin-bottom: 15px;
+}

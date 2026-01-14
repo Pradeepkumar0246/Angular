@@ -1,0 +1,105 @@
+<div class="officer-shell">
+  <!-- NAVBAR -->
+  <nav class="officer-navbar">
+    <div class="navbar-left">
+      <span class="app-title" (click)="gotoAll()">Digital License Application</span>
+
+      <div class="status-buttons">
+        <button class="nav-btn" [class.active]="filterStatus === ''" (click)="applyFilter('')">All</button>
+        <button class="nav-btn" [class.active]="filterStatus === 'Pending'" (click)="applyFilter('Pending')">Pending</button>
+        <button class="nav-btn" [class.active]="filterStatus === 'Approved'" (click)="applyFilter('Approved')">Approved</button>
+        <button class="nav-btn" [class.active]="filterStatus === 'Rejected'" (click)="applyFilter('Rejected')">Rejected</button>
+      </div>
+    </div>
+
+    <div class="navbar-right">
+      <div class="profile">
+        <img
+          class="profile-pic"
+          [src]="user?.profileImageUrl"
+          alt="Profile"
+          (click)="goToProfile()"
+        />
+        <span class="user-name" (click)="goToProfile()">{{ user?.name }}</span>
+        <button class="logout-btn" (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="officer-content">
+    <div *ngIf="loading" class="loading">Loading applications...</div>
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+    <table class="applications-table" *ngIf="!loading && applications.length">
+      <thead>
+        <tr>
+          <th>Full Name</th>
+          <th>Father Name</th>
+          <th>Gov ID Type</th>
+          <th>Gender</th>
+          <th>Physically Disabled</th>
+          <th>Permanent Address</th>
+          <th>Status</th>
+          <th>Documents</th>
+
+          <!-- Actions or Reason based on status -->
+          <th *ngIf="filterStatus === '' || filterStatus === 'Pending'">Actions</th>
+          <th *ngIf="filterStatus === 'Rejected'">Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let app of applications">
+          <td>{{ app.fullName }}</td>
+          <td>{{ app.fatherName }}</td>
+          <td>{{ app.governmentIdType }}</td>
+          <td>{{ app.gender }}</td>
+          <td>{{ app.physicallyDisabled ? 'Yes' : 'No' }}</td>
+          <td>{{ app.permanentAddress }}</td>
+          <td>{{ app.status }}</td>
+
+          <td>
+            <button *ngIf="app.governmentIdProof" (click)="download(app.governmentIdProof)">Gov ID</button>
+            <button *ngIf="app.physicallyDisabledProofPath" (click)="download(app.physicallyDisabledProofPath)">Physically Proof</button>
+            <ng-container *ngIf="app.documents?.length">
+              <button *ngFor="let d of app.documents" (click)="download(d.filePath)">
+                {{ d.filePath | slice: -20 }}
+              </button>
+            </ng-container>
+          </td>
+
+          <!-- Actions column (only for Pending or All when status is Pending) -->
+          <td *ngIf="(filterStatus === '' || filterStatus === 'Pending')">
+            <ng-container *ngIf="app.status === 'Pending'; else noActions">
+              <button [disabled]="isProcessing(app.applicationId)" (click)="approve(app)">
+                {{ isProcessing(app.applicationId) ? 'Approving...' : 'Approve' }}
+              </button>
+
+              <input
+                type="text"
+                placeholder="Rejection reason"
+                [(ngModel)]="rejectionReasons[app.applicationId]"
+              />
+              <button [disabled]="isProcessing(app.applicationId)" (click)="reject(app)">
+                {{ isProcessing(app.applicationId) ? 'Rejecting...' : 'Reject' }}
+              </button>
+            </ng-container>
+            <ng-template #noActions>
+              <!-- show nothing if not pending -->
+              <span class="muted">-</span>
+            </ng-template>
+          </td>
+
+          <!-- Rejection reason column for filtered Rejected -->
+          <td *ngIf="filterStatus === 'Rejected'">
+            {{ app.rejectionReason || '-' }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div *ngIf="!loading && applications.length === 0" class="no-data">
+      No applications found.
+    </div>
+  </div>
+</div>

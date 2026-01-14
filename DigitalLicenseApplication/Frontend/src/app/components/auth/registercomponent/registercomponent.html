@@ -1,0 +1,89 @@
+<div class="register-container">
+  <h2>Sign Up</h2>
+
+  <form #registerForm="ngForm" (ngSubmit)="register(registerForm)" novalidate>
+
+    <!-- Full Name -->
+    <div class="form-group">
+      <input
+        type="text"
+        [(ngModel)]="name"
+        name="name"
+        placeholder="Full Name"
+        required
+        pattern="[a-zA-Z\s]+"
+        minlength="3"
+        #nameCtrl="ngModel"
+      />
+      <div class="error-message" *ngIf="nameCtrl.invalid && (nameCtrl.dirty || nameCtrl.touched)">
+        <div *ngIf="nameCtrl.errors?.['required']">Full Name is required.</div>
+        <div *ngIf="nameCtrl.errors?.['minlength']">Full Name must be at least 3 characters.</div>
+        <div *ngIf="nameCtrl.errors?.['pattern']">Full Name can contain only letters and spaces.</div>
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+      <input
+        type="email"
+        [(ngModel)]="email"
+        name="email"
+        placeholder="Email"
+        required
+        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+        #emailCtrl="ngModel"
+      />
+      <div class="error-message" *ngIf="emailCtrl.invalid && (emailCtrl.dirty || emailCtrl.touched)">
+        <div *ngIf="emailCtrl.errors?.['required']">Email is required.</div>
+        <div *ngIf="emailCtrl.errors?.['email']">Please enter a valid email.</div>
+        <div *ngIf="emailCtrl.errors?.['pattern']">Please enter a valid email.</div>
+      </div>
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        placeholder="Password"
+        required
+        minlength="8"
+        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+        #passwordCtrl="ngModel"
+      />
+      <div class="error-message" *ngIf="passwordCtrl.invalid && (passwordCtrl.dirty || passwordCtrl.touched)">
+        <div *ngIf="passwordCtrl.errors?.['required']">Password is required.</div>
+        <div *ngIf="passwordCtrl.errors?.['minlength']">Password must be at least 6 characters.</div>
+        <div *ngIf="passwordCtrl.errors?.['pattern']">Password must include uppercase, lowercase, number, and special character.</div>
+      </div>
+    </div>
+
+    <!-- Contact Number -->
+    <div class="form-group">
+      <input
+        type="text"
+        [(ngModel)]="contactNumber"
+        name="contactNumber"
+        placeholder="Contact Number"
+        required
+        pattern="^[9867][0-9]{9}$"
+        #contactCtrl="ngModel"
+      />
+      <div class="error-message" *ngIf="contactCtrl.invalid && (contactCtrl.dirty || contactCtrl.touched)">
+        <div *ngIf="contactCtrl.errors?.['required']">Contact Number is required.</div>
+        <div *ngIf="contactCtrl.errors?.['pattern']">Contact Number must be 10 digits.</div>
+      </div>
+    </div>
+
+    <!-- Server/Error message -->
+    <div class="error-message" *ngIf="errorMessage">{{ errorMessage }}</div>
+
+    <button type="submit" class="register-btn" [disabled]="!registerForm.form.valid">Sign Up</button>
+  </form>
+
+  <div class="login-link">
+    <span>Already have an account?</span>
+    <a routerLink="/login">Login</a>
+  </div>
+</div>

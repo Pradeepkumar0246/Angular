@@ -1,0 +1,71 @@
+<div class="forms-container">
+  <!-- Notification -->
+  <div *ngIf="notification" class="notification" [ngClass]="notification.type">
+    {{ notification.message }}
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <label>Department:
+      <select (change)="onDepartmentChange($event)">
+        <option value="">All Departments</option>
+        <option *ngFor="let dept of departments" [value]="dept.departmentId">{{ dept.name }}</option>
+      </select>
+    </label>
+    <button class="add-btn" (click)="openAddModal()">Add Form</button>
+  </div>
+
+  <!-- Table -->
+  <table *ngIf="!loading && filteredForms.length" class="form-table">
+    <thead>
+      <tr>
+        <th>Form ID</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Department</th>
+        <th>Applications</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let form of filteredForms">
+        <td>{{ form.formId }}</td>
+        <td>{{ form.title }}</td>
+        <td>{{ form.description }}</td>
+        <td>{{ form.department?.name || 'N/A' }}</td>
+        <td>{{ form.applications?.length || 0 }}</td>
+        <td>
+          <button (click)="openEditModal(form)">Edit</button>
+          <button class="delete-btn" (click)="deleteForm(form.formId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="!loading && filteredForms.length === 0" class="no-data">
+    No forms found.
+  </div>
+
+  <!-- Add/Edit Modal -->
+  <div class="modal" *ngIf="showModal">
+    <div class="modal-content">
+      <h3>{{ isEditMode ? 'Edit Form' : 'Add Form' }}</h3>
+      <label>Title:
+        <input [(ngModel)]="currentForm.title" />
+      </label>
+      <label>Description:
+        <textarea [(ngModel)]="currentForm.description"></textarea>
+      </label>
+      <label>Department:
+        <select [(ngModel)]="currentForm.departmentId">
+          <option value="">Select Department</option>
+          <option *ngFor="let dept of departments" [value]="dept.departmentId">{{ dept.name }}</option>
+        </select>
+      </label>
+      <div class="modal-actions">
+        <button (click)="saveForm()">{{ isEditMode ? 'Update' : 'Add' }}</button>
+        <button class="cancel-btn" (click)="showModal=false">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>

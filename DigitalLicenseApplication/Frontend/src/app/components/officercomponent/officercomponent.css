@@ -1,0 +1,127 @@
+.officer-shell {
+  font-family: Arial, sans-serif;
+  color: #222;
+  padding: 0;
+}
+
+.officer-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg,#0f172a,#1e293b);
+  color: white;
+  padding: 12px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.app-title {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.status-buttons {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: white;
+  padding: 6px 10px;
+  margin-right: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background: white;
+  color: #0f172a;
+  border-color: white;
+}
+
+.navbar-right .profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid rgba(255,255,255,0.12);
+}
+
+.user-name {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Main content */
+.officer-content {
+  padding: 20px;
+}
+
+.loading, .error, .no-data {
+  padding: 16px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Table styling */
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.applications-table th, .applications-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.applications-table th {
+  background: #f8fafc;
+  color: #111827;
+  font-weight: 600;
+}
+
+.applications-table button {
+  background: #0369a1;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.applications-table input[type="text"] {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  width: 200px;
+  margin-right: 6px;
+}
+
+.muted {
+  color: #6b7280;
+  font-size: 13px;
+}

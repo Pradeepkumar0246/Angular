@@ -1,0 +1,177 @@
+/* Overall container */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00529b;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-btn {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-btn.active,
+.nav-btn:hover {
+  background-color: #fff;
+  color: #00529b;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.user-name {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logout-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff4d4d;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  background-color: #e60000;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* Forms Cards (4 per row) */
+.forms-grid .card {
+  flex: 1 1 calc(25% - 16px);
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  min-width: 180px;
+}
+
+/* Applications Cards (3 per row) */
+.applications-grid .card {
+  flex: 1 1 calc(33.33% - 16px);
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  min-width: 220px;
+}
+
+/* Buttons inside cards */
+.action-btn,
+.download-btn,
+.delete-btn {
+  padding: 6px 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.action-btn {
+  background-color: #00529b;
+  color: #fff;
+}
+
+.action-btn:hover {
+  background-color: #003f7f;
+}
+
+.download-btn {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.download-btn:hover {
+  background-color: #357a38;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+/* Rejected text */
+.rejected-text {
+  color: red;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Loading placeholder */
+.loading {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+.login-btn{
+  cursor: pointer;
+}
+.signup-btn{
+  cursor:pointer;
+}

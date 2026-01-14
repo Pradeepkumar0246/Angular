@@ -1,0 +1,99 @@
+.forms-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 1000;
+}
+.notification.success { background-color: #4CAF50; }
+.notification.error { background-color: #f44336; }
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.add-btn {
+  background-color:orange;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-btn:hover { background-color: #1976D2; }
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.form-table th, .form-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.form-table th {
+  background-color: #f4f4f4;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-btn:hover { background-color: #d32f2f; }
+
+.no-data {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+}
+.modal-content h3 {
+  margin-top: 0;
+}
+.modal-content label {
+  display: block;
+  margin: 10px 0;
+}
+.modal-content input, .modal-content textarea, .modal-content select {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.modal-actions button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.cancel-btn { background: #888; color: #fff; border: none; border-radius: 4px; }
+.cancel-btn:hover { background: #666; }

@@ -1,0 +1,90 @@
+<div class="admin-applications">
+  <div class="filters">
+    <label>Department:
+      <select (change)="onDepartmentChange($event)">
+        <option value="">All Departments</option>
+        <option *ngFor="let dept of departments" [value]="dept.departmentId">{{ dept.name }}</option>
+      </select>
+    </label>
+
+    <div class="status-buttons">
+      <button [class.active]="filterStatus===''" (click)="setStatusFilter('')">All Applications</button>
+      <button [class.active]="filterStatus==='Pending'" (click)="setStatusFilter('Pending')">Pending</button>
+      <button [class.active]="filterStatus==='Approved'" (click)="setStatusFilter('Approved')">Approved</button>
+      <button [class.active]="filterStatus==='Rejected'" (click)="setStatusFilter('Rejected')">Rejected</button>
+    </div>
+  </div>
+
+  <div *ngIf="loading" class="loading">Loading applications...</div>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <!-- Table for Approved & Rejected -->
+  <table *ngIf="!loading && filteredApplications.length && filterStatus !== 'Pending'" class="app-table">
+    <thead>
+      <tr>
+        <th>Application ID</th>
+        <th>User</th>
+        <th>Department</th>
+        <th>Status</th>
+        <th *ngIf="filterStatus==='Rejected'">Reason</th>
+        <th>Approved/Rejected By</th>
+        <th>Documents</th>
+        <!-- <th>Actions</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let app of filteredApplications">
+        <td>{{ app.applicationId }}</td>
+        <td>{{ app.user?.name || 'N/A' }}</td>
+        <td>{{ app.department?.name || 'N/A' }}</td>
+        <td>{{ app.status }}</td>
+        <td *ngIf="filterStatus==='Rejected'">{{ app.rejectionReason }}</td>
+        <td>
+          <ng-container *ngIf="app.status === 'Approved'">
+            Approved by {{ app.officer?.name || 'Admin' }} (ID: {{ app.officerId || 'Admin' }})
+          </ng-container>
+          <ng-container *ngIf="app.status === 'Rejected'">
+            Rejected by {{ app.officer?.name || 'Admin' }} (ID: {{ app.officerId || 'Admin' }})
+          </ng-container>
+          <ng-container *ngIf="app.status==='Pending'">
+            Status is Pending.
+          </ng-container>
+        </td>
+        <td>
+          <button *ngIf="app.governmentIdProof" (click)="download(app.governmentIdProof)">Gov ID</button>
+          <button *ngIf="app.physicallyDisabledProofPath" (click)="download(app.physicallyDisabledProofPath)">Physically Proof</button>
+        </td>
+        <!-- <td>
+          <button (click)="viewDetails(app)">View</button>
+        </td> -->
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Cards for Pending -->
+  <div class="cards" *ngIf="!loading && filteredApplications.length && filterStatus==='Pending'">
+    <div class="card" *ngFor="let app of filteredApplications">
+      <h3>{{ app.user?.name || 'N/A' }}</h3>
+      <p><strong>Application ID:</strong> {{ app.applicationId }}</p>
+      <p><strong>Dept:</strong> {{ app.department?.name || 'N/A' }}</p>
+      <p><strong>Status:</strong> {{ app.status }}</p>
+      <p>
+        <button *ngIf="app.governmentIdProof" (click)="download(app.governmentIdProof)">Gov ID</button>
+        <button *ngIf="app.physicallyDisabledProofPath" (click)="download(app.physicallyDisabledProofPath)">Physically Proof</button>
+      </p>
+      <p class="actions">
+        <button [disabled]="isProcessing(app.applicationId)" (click)="approve(app)">
+          {{ isProcessing(app.applicationId)? 'Approving...' : 'Approve' }}
+        </button>
+        <input type="text" placeholder="Rejection reason" [(ngModel)]="rejectionReasons[app.applicationId]"/>
+        <button [disabled]="isProcessing(app.applicationId)" (click)="reject(app)">
+          {{ isProcessing(app.applicationId)? 'Rejecting...' : 'Reject' }}
+        </button>
+      </p>
+    </div>
+  </div>
+
+  <div *ngIf="!loading && filteredApplications.length === 0" class="no-data">
+    No applications found.
+  </div>
+</div>

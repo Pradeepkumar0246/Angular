@@ -1,0 +1,111 @@
+<div class="submit-form-container">
+  <h2>Submit Application</h2>
+  <form (ngSubmit)="submitApplication()" #appForm="ngForm" novalidate>
+
+    <!-- Full Name -->
+    <div class="form-group" [ngClass]="{'has-error': fullNameInput.invalid && (fullNameInput.dirty || fullNameInput.touched)}">
+      <label>Full Name</label>
+      <input type="text" [(ngModel)]="fullName" #fullNameInput="ngModel" name="fullName" required />
+      <div class="error" *ngIf="fullNameInput.invalid && (fullNameInput.dirty || fullNameInput.touched)">
+        Full Name is required.
+      </div>
+    </div>
+
+    <!-- Father Name -->
+    <div class="form-group" [ngClass]="{'has-error': fatherNameInput.invalid && (fatherNameInput.dirty || fatherNameInput.touched)}">
+      <label>Father Name</label>
+      <input type="text" [(ngModel)]="fatherName" #fatherNameInput="ngModel" name="fatherName" required />
+      <div class="error" *ngIf="fatherNameInput.invalid && (fatherNameInput.dirty || fatherNameInput.touched)">
+        Father Name is required.
+      </div>
+    </div>
+
+    <!-- Government ID Type -->
+    <div class="form-group" [ngClass]="{'has-error': governmentIdTypeInput.invalid && (governmentIdTypeInput.dirty || governmentIdTypeInput.touched)}">
+      <label>Government ID Type</label>
+      <input type="text" [(ngModel)]="governmentIdType" #governmentIdTypeInput="ngModel" name="governmentIdType" required />
+      <div class="error" *ngIf="governmentIdTypeInput.invalid && (governmentIdTypeInput.dirty || governmentIdTypeInput.touched)">
+        Government ID Type is required.
+      </div>
+    </div>
+
+    <!-- Marital Status -->
+    <div class="form-group" [ngClass]="{'has-error': maritalStatusInput.invalid && (maritalStatusInput.dirty || maritalStatusInput.touched)}">
+      <label>Marital Status</label>
+      <select [(ngModel)]="maritalStatus" #maritalStatusInput="ngModel" name="maritalStatus" required>
+        <option value="" disabled>Select</option>
+        <option>Single</option>
+        <option>Married</option>
+      </select>
+      <div class="error" *ngIf="maritalStatusInput.invalid && (maritalStatusInput.dirty || maritalStatusInput.touched)">
+        Please select marital status.
+      </div>
+    </div>
+
+    <!-- Gender -->
+    <div class="form-group" [ngClass]="{'has-error': genderInput.invalid && (genderInput.dirty || genderInput.touched)}">
+      <label>Gender</label>
+      <select [(ngModel)]="gender" #genderInput="ngModel" name="gender" required>
+        <option value="" disabled>Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+      <div class="error" *ngIf="genderInput.invalid && (genderInput.dirty || genderInput.touched)">
+        Please select gender.
+      </div>
+    </div>
+
+    <!-- Physically Disabled -->
+    <div class="form-group">
+      <label>
+        <input type="checkbox" [(ngModel)]="physicallyDisabled" name="physicallyDisabled" />
+        Physically Disabled
+      </label>
+    </div>
+
+    <!-- Permanent Address -->
+    <div class="form-group" [ngClass]="{'has-error': permanentAddressInput.invalid && (permanentAddressInput.dirty || permanentAddressInput.touched)}">
+      <label>Permanent Address</label>
+      <textarea [(ngModel)]="permanentAddress" #permanentAddressInput="ngModel" name="permanentAddress" required></textarea>
+      <div class="error" *ngIf="permanentAddressInput.invalid && (permanentAddressInput.dirty || permanentAddressInput.touched)">
+        Permanent Address is required.
+      </div>
+    </div>
+
+    <!-- Additional Details -->
+    <div class="form-group">
+      <label>Additional Details</label>
+      <textarea [(ngModel)]="details" name="details"></textarea>
+    </div>
+
+    <!-- Upload Government ID -->
+    <div class="form-group" [ngClass]="{'has-error': !governmentIdFile && appForm.submitted}">
+      <label>Upload Government ID (PDF)</label>
+      <input type="file" (change)="onFileChange($event,'gov')" accept="application/pdf" required />
+      <div class="error" *ngIf="!governmentIdFile && appForm.submitted">
+        Government ID proof is required.
+      </div>
+    </div>
+
+    <!-- Upload Physically Disabled Proof -->
+    <div class="form-group" *ngIf="physicallyDisabled" [ngClass]="{'has-error': !physicallyDisabledFile && appForm.submitted}">
+      <label>Upload Physically Disabled Proof (PDF)</label>
+      <input type="file" (change)="onFileChange($event,'phys')" accept="application/pdf" />
+      <div class="error" *ngIf="!physicallyDisabledFile && appForm.submitted">
+        Please upload proof for physically disabled.
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="form-actions">
+      <button type="submit" [disabled]="!appForm.valid || !governmentIdFile || (physicallyDisabled && !physicallyDisabledFile)">Submit</button>
+      <button type="button" class="cancel-btn" (click)="cancel()">Cancel</button>
+    </div>
+
+    <!-- Messages -->
+    <div *ngIf="errorMessage" class="error">{{errorMessage}}</div>
+    <div *ngIf="successMessage" class="success">{{successMessage}}</div>
+
+  </form>
+</div>

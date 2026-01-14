@@ -1,0 +1,45 @@
+<div class="profile-container">
+  <h2>Update Profile</h2>
+
+  <div class="messages">
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+    <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+  </div>
+
+  <form #profileForm="ngForm" (ngSubmit)="submitUpdate()" novalidate>
+
+    <div class="form-group">
+      <label>Profile Image</label>
+      <input type="file" (change)="onFileSelected($event)" />
+      <div *ngIf="user.profileImageUrl">
+        <img [src]="user.profileImageUrl" alt="Profile" class="profile-pic" />
+      </div>
+    </div>
+
+    <div class="form-group" [ngClass]="{'has-error': nameInput.invalid && (nameInput.dirty || nameInput.touched || profileForm.submitted)}">
+      <label>Name *</label>
+      <input type="text" [(ngModel)]="user.name" name="name" #nameInput="ngModel" required />
+      <div class="error" *ngIf="nameInput.invalid && (nameInput.dirty || nameInput.touched || profileForm.submitted)">
+        Name is required
+      </div>
+    </div>
+
+    <div class="form-group" [ngClass]="{'has-error': emailInput.invalid && (emailInput.dirty || emailInput.touched || profileForm.submitted)}">
+      <label>Email *</label>
+      <input type="email" [(ngModel)]="user.email" name="email" #emailInput="ngModel" required email />
+      <div class="error" *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched || profileForm.submitted)">
+        Enter a valid email
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Contact Number</label>
+      <input type="text" [(ngModel)]="user.contactNumber" name="contactNumber" />
+    </div>
+
+    <div class="button-group">
+      <button type="submit" [disabled]="profileForm.invalid">Update Profile</button>
+      <button type="button" (click)="goBack()">Back</button>
+    </div>
+  </form>
+</div>
