@@ -1,0 +1,14 @@
+<h3>Food Detail</h3>
+
+
+  <div class="card p-3">
+    <img [src]="food.imageUrl" class="card-img-top" style="max-width:200px;">
+    <div class="card-body">
+      <h5>{{ food.name }}</h5>
+      <p>Category: {{ food.category }}</p>
+      <p>Price: ₹{{ food.price }}</p>
+      <button class="btn btn-sm btn-success" (click)="AddFood(food)">
+          Add to Cart
+        </button>
+     </div>
+  </div>

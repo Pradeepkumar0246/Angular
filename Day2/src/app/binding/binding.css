@@ -1,0 +1,25 @@
+.products {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  row-gap: 80px;
+  column-gap: 40px;
+  margin-top: 20px;
+}
+img {
+  width: 200px;        
+  height: 150px;       
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+.onsale{
+    background-color:lightblue;
+}
+.customer{
+    display: grid;
+  grid-template-columns:auto auto auto;
+  row-gap: 80px;
+  column-gap: 40px;
+  margin-top: 20px;
+}

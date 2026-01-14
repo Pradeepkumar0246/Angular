@@ -1,0 +1,47 @@
+<p>doctorcom works!</p>
+
+<div class="d-flex justify-content-between align- items-center mb-2">
+  <h3>Doctors</h3>
+  <button class="btn btn-success" *ngIf="auth.isAdmin()" (click)="add()">
+    New
+  </button>
+</div>
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+<table class="table table-striped" *ngIf="!loading && doctors?.length">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Specialization</th>
+      <th>Hospital</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let d of doctors">
+      <td>{{ d.doctorId }}</td>
+      <td>{{ d.name }}</td>
+      <td>{{ d.specialization }}</td>
+      <td>{{ d.hospital?.name}}</td>
+      <td>
+        <button class="btn btn-sm btn-primary me-1" *ngIf="auth.isAdmin()"
+          (click)="edit(d.doctorId)"
+        >Edit</button>
+
+        <button  class="btn btn-sm btn-danger"
+          *ngIf="auth.isAdmin()"
+          (click)="delete(d.doctorId)"
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div
+  *ngIf="!loading && (!doctors || doctors.length === 0)"
+  class="alert alertinfo"
+>
+  No doctors found.
+</div>

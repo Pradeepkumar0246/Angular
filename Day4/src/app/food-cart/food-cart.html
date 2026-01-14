@@ -1,0 +1,23 @@
+<h3>🛒 Food Cart</h3>
+
+@if (cartItems.length > 0) {
+  <ul class="list-group">
+    @for (item of cartItems; track $index) {
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+       {{ item.food?.name }} (x{{ item.quantity }}) - ₹{{ (item.food?.price ?? 0) * item.quantity }}
+        <button class="btn btn-sm btn-danger"
+                (click)="removeItem(item.id!)">
+          Remove
+        </button>
+      </li>
+    }
+  </ul>
+  <p class="mt-2 fw-bold">
+    Total: ₹{{ total}}
+  </p>
+  <button class="btn btn-warning mt-2" (click)="clearCart()">
+    Clear Cart
+  </button>
+} @else {
+  <p class="text-muted">Cart is empty.</p>
+}

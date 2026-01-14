@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">Hospital App</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/doctors">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/hospitals">Hospitals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/patients">Patients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/users">Users</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li *ngIf="!auth.isLoggedIn()" class="nav-item">
+          <a class="nav-link" routerLink="/login">Login</a>
+        </li>
+        <li *ngIf="!auth.isLoggedIn()" class="nav-item">
+          <a class="nav-link" routerLink="/register">Register</a>
+        </li>
+        <li *ngIf="auth.isLoggedIn()" class="nav-item">
+          <span class="nav-link">Welcome, {{ auth.getCurrentUser()?.username }} ({{ auth.getCurrentUser()?.role?.roleName }})</span>
+        </li>
+        <li *ngIf="auth.isLoggedIn()" class="nav-item">
+          <button class="nav-link btn btn-link" (click)="logout()">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container mt-3">
+  <router-outlet></router-outlet>
+</div>

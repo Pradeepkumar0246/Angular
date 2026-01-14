@@ -1,0 +1,57 @@
+<!-- Counter -->
+<button (click)="counter()">Click</button>
+<p>{{ count }}</p>
+
+<!-- Toggle password -->
+<input [type]="showpass ? 'text' : 'password'" placeholder="Enter password" />
+<button (click)="showpassword()">{{ showpass ? 'Hide' : 'Show' }}</button>
+
+<!-- Two-way binding -->
+<input type="text" [(ngModel)]="txtvalue" placeholder="Type something" />
+<h3>{{ txtvalue }}</h3>
+
+<!-- Addition -->
+<input type="number" [(ngModel)]="num1" placeholder="Number 1" />
+<input type="number" [(ngModel)]="num2" placeholder="Number 2" />
+<p>Sum = {{ num1 + num2 }}</p>
+
+<!-- Product list with Add to Cart -->
+<h3>Products</h3>
+<div *ngFor="let p of products">
+  <p>
+    {{ p.name }} - ₹{{ p.price }}
+    <button (click)="addToCart(p, 1)">Add</button>
+  </p>
+</div>
+
+<!-- Cart -->
+<h3>Cart</h3>
+<div *ngFor="let item of myCart.getCart()">
+  {{ item.product.name }} x{{ item.quantity }}
+  = ${{ item.product.price * item.quantity }}
+  <button (click)="removeFromCart(item.product.id)">Remove</button>
+</div>
+<p>Total: ${{ calculateTotal() }}</p>
+
+<!-- Discount -->
+<input #discountCode type="text" placeholder="Enter discount" />
+<button (click)="applyDiscount(discountCode.value); discountCode.value=''">
+  Apply
+</button>
+
+<!-- If-else demo -->
+<div *ngIf="showpro; else elseBlock">Showing Product Section</div>
+<ng-template #elseBlock>Hidden Section</ng-template>
+
+<!-- Category with ngSwitch -->
+<select [(ngModel)]="catogry">
+  <option value="">--Select--</option>
+  <option value="electronics">Electronics</option>
+  <option value="cloths">Cloths</option>
+</select>
+
+<div [ngSwitch]="catogry">
+  <p *ngSwitchCase="'electronics'">Electronics Selected</p>
+  <p *ngSwitchCase="'cloths'">Cloths Selected</p>
+  <p *ngSwitchDefault>Please choose a category</p>
+</div>

@@ -1,0 +1,25 @@
+<h1>Welcome to my Product Page</h1>
+<div class="products">
+    <div *ngFor="let pro of Pro"class="product" [class.onsale]="pro.proonsale">
+        <img [src]="pro.proimg">
+        <p>Name : {{pro.pronam}}</p>
+        <p>Price : {{pro.proprice}}</p>
+        <p [style.color]="getRatingColor(pro.prorating)">Rating : {{pro.prorating}}</p>
+        <p>Discription : {{pro.prodiscription}}</p>
+        <button [disabled]="pro.proquantity <= 0">Buy Now</button>
+        <button (click)="addToCart(pro)" [disabled]="pro.proquantity<=0">Add to Caart</button>
+    </div>
+</div>
+<h2>User Profile</h2>
+    <label for="username">UserName</label>
+    <input type="text" [(ngModel)]="listuser.username">
+    <label for="useremail">UserEmail</label>
+    <input type="text" [(ngModel)]="listuser.usermail">
+<p>{{listuser.username}}</p>
+<p>{{listuser.usermail}}</p>
+<div class="customer">
+    <div *ngFor="let cs of Customer">
+        <p>Name : {{cs.csname}}</p>
+        <p>Rating : {{cs.csrating}}</p>
+    </div>
+</div>

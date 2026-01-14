@@ -1,0 +1,25 @@
+h1,p{
+    text-align: center;
+    color: blueviolet;
+}   
+img{
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+}
+table{
+   margin: auto;
+}
+.tablehead{
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+.tablebody{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+<div class="container">
+  <h2>Product Management</h2>
+
+  <!-- -------- Search -------- -->
+  <div class="search-box">
+    <input
+      type="text"
+      placeholder="Search by name..."
+      [(ngModel)]="searchTerm"
+      (input)="searchProduct()"
+    />
+  </div>
+
+  <!-- -------- Product Table -------- -->
+  <table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of filteredProducts">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.category }}</td>
+        <td>
+          <button (click)="editProduct(product)">Edit</button>
+          <button (click)="deleteProduct(product.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- -------- Add Product Form -------- -->
+  <div class="form-box">
+    <h3>Add Product</h3>
+    <input type="text" placeholder="Name" [(ngModel)]="newProduct.name" />
+    <input type="number" placeholder="Price" [(ngModel)]="newProduct.price" />
+    <input type="text" placeholder="Category" [(ngModel)]="newProduct.category" />
+    <button (click)="addProduct()">Add</button>
+  </div>
+
+  <!-- -------- Edit Product Form -------- -->
+  <div class="form-box" *ngIf="editingProduct">
+    <h3>Edit Product</h3>
+    <input type="text" placeholder="Name" [(ngModel)]="editingProduct.name" />
+    <input type="number" placeholder="Price" [(ngModel)]="editingProduct.price" />
+    <input type="text" placeholder="Category" [(ngModel)]="editingProduct.category" />
+    <button (click)="updateProduct()">Update</button>
+    <button (click)="cancelEdit()">Cancel</button>
+  </div>
+</div>
+

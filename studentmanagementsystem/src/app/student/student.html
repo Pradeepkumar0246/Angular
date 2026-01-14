@@ -1,0 +1,60 @@
+<div class="container">
+  <h1>Student Management System</h1>
+
+  <input type="text" placeholder="Search by name or roll number" [(ngModel)]="searchText" (input)="filterStudents()" />
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll Number</th>
+        <th>Subjects</th>
+        <th>Marks</th>
+        <th>Total</th>
+        <th>Average</th>
+        <th>Grade</th>
+        <th>Performance</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of filteredStudents">
+        <td>{{ student.name }}</td>
+        <td>{{ student.roll }}</td>
+        <td>{{ student.subjects.join(', ') }}</td>
+        <td>{{ student.marks.join(', ') }}</td>
+        <td>{{ gettotalmarks(student.marks) }}</td>
+        <td>{{ getaverage(student.marks) | number: '1.0-2' }}</td>
+        <td [ngClass]="getgrade(getaverage(student.marks)).toLowerCase()">{{ getgrade(getaverage(student.marks)) }}</td>
+        <td [ngClass]="getperformance(student.marks).toLowerCase()">{{ getperformance(student.marks) }}</td>
+        <td>
+          <button (click)="editStudent(student.roll)">Edit</button>
+          <button (click)="deleteStudent(student.roll)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="editstudent">
+    <h2>Edit Student</h2>
+    <form (ngSubmit)="updateStudent()">
+      <label>Name: <input [(ngModel)]="editstudent.name" name="editName" required /></label>
+      <label>Roll Number: <input [(ngModel)]="editstudent.roll" name="editRoll" required /></label>
+      <label>Subjects (comma separated): <input [(ngModel)]="editstudent.subjects" name="editSubjects" required /></label>
+      <label>Marks (comma separated): <input [(ngModel)]="editstudent.marks" name="editMarks" required /></label>
+      <button type="submit">Update</button>
+      <button type="button" (click)="cancleEdit()">Cancel</button>
+    </form>
+  </div>
+
+  <div>
+    <h2>Add Student</h2>
+    <form (ngSubmit)="addstudent()">
+      <label>Name: <input [(ngModel)]="newstudent.name" name="name" required /></label>
+      <label>Roll Number: <input [(ngModel)]="newstudent.roll" name="roll" required /></label>
+      <label>Subjects: <input [(ngModel)]="newstudent.subjects" name="subjects" required /></label>
+      <label>Marks <input [(ngModel)]="newstudent.marks" name="marks" required /></label>
+      <button type="submit">Add</button>
+    </form>
+  </div>
+</div>

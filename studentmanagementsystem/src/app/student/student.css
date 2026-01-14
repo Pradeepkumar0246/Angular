@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+}
+td.a {
+  color: lightgreen;
+  font-weight: bold;
+}
+td.b {
+  color: green;
+  font-weight: bold;
+}
+td.c {
+  color: goldenrod;
+  font-weight: bold;
+}
+td.d {
+  color: orange;
+  font-weight: bold;
+}
+td.f {
+  color: red;
+  font-weight: bold;
+}
+
+td.excellent {
+  color: lightgreen;
+  font-weight: bold;
+}
+td.good {
+  color: deepskyblue;
+  font-weight: bold;
+}
+td.average {
+  color: gold;
+  font-weight: bold;
+}
+td.poor {
+  color: red;
+  font-weight: bold;
+}

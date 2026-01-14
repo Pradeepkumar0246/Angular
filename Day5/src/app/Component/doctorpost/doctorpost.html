@@ -1,0 +1,25 @@
+<h3>{{ isEdit ? "Edit Doctor" : "New Doctor" }}</h3>
+<form [formGroup]="form" (ngSubmit)="save()">
+  <div class="mb-3">
+    <label>Name</label>
+
+    <input formControlName="name" class="form- control" />
+  </div>
+  <div class="mb-3">
+    <label>Specialization</label>
+    <input formControlName="specialization" class="form-control" />
+  </div>
+  <div class="mb-3">
+    <label>Hospital</label>
+    <select formControlName="hospitalId" class="form-control">
+      <option value="">-- Select --</option>
+      <option *ngFor="let h of hospitals" [value]="h.hospitalId">
+        {{ h.name }}
+      </option>
+    </select>
+  </div>
+  <button class="btn btn-primary" type="submit">
+    {{ isEdit ? "Update" : "Create" }}
+  </button>
+  <a class="btn btn-secondary ms-2" routerLink="/doctors">Cancel</a>
+</form>

@@ -1,0 +1,52 @@
+<p>sample works!</p>
+<h1>Sample page created</h1>
+<h1>{{fname}} & {{lname}}</h1>
+<!-- <img  [src]= "imageurl"> -->
+
+<button (click)="counter()">Click Here</button>
+<p>{{count}}</p>
+
+<input [type]="showpass ? 'text' : 'password'">
+<button (click)="showpassword()">{{showpass?'Hide':'Show'}}</button>
+
+<input type="text" [(ngModel)]="txtvalue">
+<h2>{{txtvalue}}</h2>
+
+Number1<input type="number" [(ngModel)]="num1">
+Number2<input type="number" [(ngModel)]="num2">
+<p>Addition of 2 Number ={{num1+num2}}</p>
+
+<table>
+    <thead>
+        <tr>
+            <td class="tablehead">Product Id</td>
+            <td class="tablehead">User Name</td>
+            <td class="tablehead">Product Image</td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let prod of pro">
+        <td class="tablebody">{{prod.proid}}</td>
+        <td class="tablebody">{{prod.name}}</td>
+        <td class="tablebody"><img class="image" [src]="prod.img"></td>
+    </tr>
+    </tbody>
+</table>
+
+
+<div *ngIf="showpro;else redirect">
+    <p>If is working , I am inside the If condition</p>
+    </div>
+    <ng-template #redirect>
+        <p>If else is working, I am inside the Else condition</p>
+    </ng-template>
+
+    <select [(ngModel)]="catogry">
+        <option value="electronics">Electronics</option>
+        <option value="cloths">Cloths</option>
+    </select>
+    <div [ngSwitch]="catogry">
+        <p *ngSwitchCase="'electronics'">You Selected Electronics</p>
+        <p *ngSwitchCase="'cloths'">You Selected Cloths</p>
+        <p *ngSwitchDefault="">Select Any option to view</p>
+    </div>
