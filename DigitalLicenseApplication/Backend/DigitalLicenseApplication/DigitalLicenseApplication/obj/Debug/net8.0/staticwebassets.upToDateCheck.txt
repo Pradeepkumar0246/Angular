@@ -1,0 +1,9 @@
+wwwroot\Upload\Applicationfile\Documents\apiintegrationwithrole.pdf
+wwwroot\Upload\Applicationfile\Documents\C#_Assessment.pdf
+wwwroot\Upload\Applicationfile\Documents\DocScanner Jul 25, 2025 17-25.pdf
+wwwroot\Upload\Applicationfile\Documents\invoice_2025-08-04.pdf
+wwwroot\Upload\Applicationfile\Documents\PRADEEP KUMAR. M - Day 41 SOLID Principles.pdf
+wwwroot\Upload\Applicationfile\Documents\sql_erd_compatible (1).pdf
+wwwroot\Upload\Applicationfile\Documents\X&N_Testing.pdf
+wwwroot\Upload\Applicatonfiles\Documents\Vehical_doc.pdf
+wwwroot\Upload\Applicationfile\Documents\Pradeepkumar M - Day 61 - Angular Assignment 2.pdf

@@ -1,0 +1,806 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\models\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\models\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\repository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\repository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\repository\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\repository\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\applicationpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\applicationpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\applicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\applicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\useradmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\useradmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\repository\\iformrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\repository\\iformrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\repository\\formrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\repository\\formrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\service\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\service\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\service\\iformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\service\\iformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\formpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\formpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\service\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\service\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\repository\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\repository\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\repository\\iapplicationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\repository\\iapplicationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\departmentpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\departmentpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\service\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\service\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\service\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\service\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\repository\\idocumentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\repository\\idocumentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\interface\\service\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\interface\\service\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Migrations\\20250925071328_AddApplicationFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DigitalLicenseApplication\\Migrations\\20250925071328_AddApplicationFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\documentpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\documentpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\service\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\service\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\digitallicenseapplication\\digitallicenseapplication\\migrations\\20250925072936_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F3C25F-5790-41DF-998D-678796089D0C}|DigitalLicenseApplication\\DigitalLicenseApplication.csproj|solutionrelative:digitallicenseapplication\\migrations\\20250925072936_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Controllers\\UserController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAIwLwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:08:46.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:32:07.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Application.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Models\\Application.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Application.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Models\\Application.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:48:27.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Controllers\\FormController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\FormController.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Controllers\\FormController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:42:58.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Program.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Program.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T05:19:23.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserrepo.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IUserrepo.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Repository\\IUserrepo.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IUserrepo.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Repository\\IUserrepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:06:23.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IUserservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Service\\IUserservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IUserservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Service\\IUserservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:09:40.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\appsettings.json",
+              "RelativeToolTip": "DigitalLicenseApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-21T04:53:37.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Models\\Document.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Document.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Models\\Document.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:48:40.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Constants.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Constants.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Constants.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:11:06.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Form.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Models\\Form.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Form.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Models\\Form.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:48:07.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\User.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:44:22.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Userservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Userservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Service\\Userservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Userservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Service\\Userservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T05:56:35.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:20:09.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:22:26.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\ApplicationRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Repository\\ApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\ApplicationRepository.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Repository\\ApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:26:48.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\ApplicationPostDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\ApplicationPostDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\ApplicationPostDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\ApplicationPostDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:57:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Models\\Department.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:47:51.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:22:03.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:21:41.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Repository\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\DocumentRepository.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Repository\\DocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:26:02.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Repository\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\DepartmentRepository.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Repository\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:26:27.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:25:00.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\ApplicationDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\ApplicationDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\ApplicationDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\ApplicationDTO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T02:22:12.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UpdateUserDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\UpdateUserDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UpdateUserDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\UpdateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T05:40:13.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserAdminDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserAdminDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\UserAdminDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserAdminDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\UserAdminDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:54:43.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T08:02:41.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserRegisterDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\UserRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:50:00.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IFormrepo.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IFormrepo.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Repository\\IFormrepo.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IFormrepo.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Repository\\IFormrepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:06:48.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Formservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Formservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Service\\Formservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Formservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Service\\Formservice.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA/wCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:35:31.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\FormRepository.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Repository\\FormRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Repository\\FormRepository.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Repository\\FormRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:25:23.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IFormservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IFormservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Service\\IFormservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IFormservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Service\\IFormservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:09:58.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FormPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\FormPostDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\FormPostDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\FormPostDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\FormPostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:55:17.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Departmentservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Departmentservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Service\\Departmentservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Departmentservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Service\\Departmentservice.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:00:51.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IApplicationrepo.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IApplicationrepo.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Repository\\IApplicationrepo.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IApplicationrepo.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Repository\\IApplicationrepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:08:16.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DepartmentPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\DepartmentPostDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\DepartmentPostDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\DepartmentPostDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\DepartmentPostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:56:33.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDepartmentservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IDepartmentservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Service\\IDepartmentservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IDepartmentservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Service\\IDepartmentservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:38:12.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IDepartmentrepo.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IDepartmentrepo.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Repository\\IDepartmentrepo.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IDepartmentrepo.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Repository\\IDepartmentrepo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA1wAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:07:51.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Applicationservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Applicationservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Service\\Applicationservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Applicationservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Service\\Applicationservice.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv00AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:04:35.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IApplicationservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IApplicationservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Service\\IApplicationservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IApplicationservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Service\\IApplicationservice.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA6wA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:38:37.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IDocumentservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IDocumentservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Service\\IDocumentservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Service\\IDocumentservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Service\\IDocumentservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:17:26.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IDocumentrepo.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IDocumentrepo.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Interface\\Repository\\IDocumentrepo.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Interface\\Repository\\IDocumentrepo.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Interface\\Repository\\IDocumentrepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:07:16.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250925071328_AddApplicationFields.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Migrations\\20250925071328_AddApplicationFields.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Migrations\\20250925071328_AddApplicationFields.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Migrations\\20250925071328_AddApplicationFields.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Migrations\\20250925071328_AddApplicationFields.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T07:13:29.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250925072936_init.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Migrations\\20250925072936_init.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Migrations\\20250925072936_init.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Migrations\\20250925072936_init.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Migrations\\20250925072936_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T07:29:36.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DocumentPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\DocumentPostDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\DocumentPostDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\DocumentPostDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\DocumentPostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:55:55.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\DTOs\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\DTOs\\UserLoginDTO.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\DTOs\\UserLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T07:36:31.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Documentservice.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Documentservice.cs",
+              "RelativeDocumentMoniker": "DigitalLicenseApplication\\Service\\Documentservice.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\DigitalLicenseApplication\\DigitalLicenseApplication\\Service\\Documentservice.cs",
+              "RelativeToolTip": "DigitalLicenseApplication\\Service\\Documentservice.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:43:45.095Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
